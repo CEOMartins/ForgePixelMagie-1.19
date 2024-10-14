@@ -24,6 +24,13 @@ public class ModItems {
     public static final RegistryObject<Item> ADAGA = ITEMS.register( "adaga",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
+    public static final RegistryObject<Item> AMETHYST = ITEMS.register( "amethyst",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
+    public static final RegistryObject<Item> RAWAMETHYST = ITEMS.register( "rawamethyst",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
+
     public static void  register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
