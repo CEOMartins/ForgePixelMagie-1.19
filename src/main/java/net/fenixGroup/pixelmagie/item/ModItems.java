@@ -17,7 +17,11 @@ public class ModItems {
 
     public static final RegistryObject<Item> DEMONICMARK = ITEMS.register( "demonicmark",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
     public static final RegistryObject<Item> ANGELICMARK = ITEMS.register( "angelicmark",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
+    public static final RegistryObject<Item> ADAGA = ITEMS.register( "adaga",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
     public static void  register(IEventBus eventBus) {
