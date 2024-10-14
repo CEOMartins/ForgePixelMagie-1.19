@@ -1,6 +1,7 @@
 package net.fenixGroup.pixelmagie;
 
 import com.mojang.logging.LogUtils;
+import net.fenixGroup.pixelmagie.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -18,6 +19,8 @@ public class pixelmagie
     private static final Logger LOGGER = LogUtils.getLogger();
     public pixelmagie() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
