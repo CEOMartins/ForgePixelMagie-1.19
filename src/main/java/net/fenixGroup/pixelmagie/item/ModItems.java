@@ -15,7 +15,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, pixelmagie.MOD_ID);
 
-    public static final RegistryObject<Item> MARCA = ITEMS.register( "demonicmark",
+    public static final RegistryObject<Item> DEMONICMARK = ITEMS.register( "demonicmark",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
     public static void  register(IEventBus eventBus) {
