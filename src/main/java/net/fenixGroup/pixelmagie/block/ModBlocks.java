@@ -24,12 +24,12 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, pixelmagie.MOD_ID);
 
     public static final RegistryObject<Block> AMETHYST_BLOCK_ORE = registerBlock("amethyst_block_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-            .strength(6.0f, 1200.0f)
+            .strength(48.0f, 1200.0f)
             .requiresCorrectToolForDrops(),
             UniformInt.of(5, 10)), ModCreativeModeTab.PIXELMAGIE_TAB);
 
     public static final RegistryObject<Block> DEEPSLATE_AMETHYST_BLOCK_ORE = registerBlock("deepslate_amethyst_block_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-            .strength(6.0f, 1200.0f)
+            .strength(48.0f, 1200.0f)
             .requiresCorrectToolForDrops(),
             UniformInt.of(5, 10)), ModCreativeModeTab.PIXELMAGIE_TAB);
 

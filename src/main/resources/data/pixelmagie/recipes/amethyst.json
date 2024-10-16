@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 500,
+  "experience": 1.5,
+  "group": "amethyst",
+  "ingredient": {
+    "item": "pixelmagie:rawamethyst"
+  },
+  "result": "pixelmagie:amethyst"
+}
