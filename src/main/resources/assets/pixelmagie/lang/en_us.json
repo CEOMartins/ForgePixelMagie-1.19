@@ -3,5 +3,11 @@
   "item.pixelmagie.angelicmark": "Angelic Mark",
   "item.pixelmagie.adaga": "Adaga",
   "item.pixelmagie.rawamethyst": "Ore Amethyst",
-  "item.pixelmagie.amethyst": "Amethyst"
+  "item.pixelmagie.amethyst": "Amethyst",
+
+  "block.pixelmagie.amethyst_block_ore": "Mineral Amethyst",
+  "block.pixelmagie.deepslate_amethyst_block_ore": "Mineral Amethyst Profundo",
+
+
+  "itemGroup.pixelmagietab": "Guia Pixel Magie"
 }

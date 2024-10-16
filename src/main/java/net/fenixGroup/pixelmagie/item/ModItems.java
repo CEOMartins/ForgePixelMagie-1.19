@@ -16,19 +16,19 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, pixelmagie.MOD_ID);
 
     public static final RegistryObject<Item> DEMONICMARK = ITEMS.register( "demonicmark",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
 
     public static final RegistryObject<Item> ANGELICMARK = ITEMS.register( "angelicmark",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
 
     public static final RegistryObject<Item> ADAGA = ITEMS.register( "adaga",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
 
     public static final RegistryObject<Item> AMETHYST = ITEMS.register( "amethyst",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
 
     public static final RegistryObject<Item> RAWAMETHYST = ITEMS.register( "rawamethyst",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
 
 
     public static void  register(IEventBus eventBus) {

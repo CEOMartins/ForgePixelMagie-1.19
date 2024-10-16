@@ -1,0 +1,8 @@
+{
+
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pixelmagie:block/deepslate_amethyst_block_ore"
+  }
+
+}
