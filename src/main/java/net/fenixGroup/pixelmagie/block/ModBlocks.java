@@ -11,7 +11,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
-import net.minecraftforge.eventbus.EventBus;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -25,12 +24,12 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, pixelmagie.MOD_ID);
 
     public static final RegistryObject<Block> AMETHYST_BLOCK_ORE = registerBlock("amethyst_block_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-            .strength(50.0F,1200.0f)
+            .strength(2.0f, 1200.0f)
             .requiresCorrectToolForDrops(),
             UniformInt.of(5, 10)), ModCreativeModeTab.PIXELMAGIE_TAB);
 
     public static final RegistryObject<Block> DEEPSLATE_AMETHYST_BLOCK_ORE = registerBlock("deepslate_amethyst_block_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-            .strength(50.0F,1200.0f)
+            .strength(2.0f, 1200.0f)
             .requiresCorrectToolForDrops(),
             UniformInt.of(5, 10)), ModCreativeModeTab.PIXELMAGIE_TAB);
 
