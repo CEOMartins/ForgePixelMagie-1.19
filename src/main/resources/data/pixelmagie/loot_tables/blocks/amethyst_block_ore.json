@@ -51,7 +51,63 @@
               "name": "pixelmagie:rawamethyst"
             }
           ]
+        },{
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:alternatives",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:match_tool",
+                          "predicate": {
+                            "enchantments": [
+                              {
+                                "enchantment": "minecraft:silk_touch",
+                                "levels": {
+                                  "min": 1
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "name": "minecraft:amethyst_block_ore"
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "pixelmagie:rawamethyst",
+                      "functions": [
+                        {
+                          "function": "minecraft:set_count",
+                          "count": {
+                            "type": "minecraft:uniform",
+                            "min": 2,
+                            "max": 5
+                          }
+                        },
+                        {
+                          "function": "minecraft:apply_bonus",
+                          "enchantment": "minecraft:fortune",
+                          "formula": "minecraft:ore_drops"
+                        },
+                        {
+                          "function": "minecraft:explosion_decay"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
+
       ]
     }
   ]
