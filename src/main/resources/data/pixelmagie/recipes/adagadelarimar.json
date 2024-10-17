@@ -1,0 +1,21 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "l",
+    "l",
+    "s"
+  ],
+  "key": {
+    "l": {
+      "item": "pixelmagie:larimar"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "pixelmagie:adagadelarimar"
+  }
+
+}

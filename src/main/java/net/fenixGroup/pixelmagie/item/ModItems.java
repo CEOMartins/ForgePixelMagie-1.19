@@ -36,7 +36,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
 
     public static final RegistryObject<Item> ADAGADELARIMAR = ITEMS.register( "adagadelarimar",
-            () -> new SwordItem(Tiers.NETHERITE, 5 , 5.5f, new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
+            () -> new SwordItem(Tiers.NETHERITE, 5 , 2.5f, new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
 
     public static final RegistryObject<Item> PICARETADELARIMAR = ITEMS.register( "picaretadelarimar",
             () -> new PickaxeItem(Tiers.DIAMOND, 3 ,  2.5f, new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
