@@ -30,21 +30,8 @@ public class ModItems {
     public static final RegistryObject<Item> RAWAMETHYST = ITEMS.register( "rawamethyst",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
 
-    public static final RegistryObject<Item> LARIMAR = ITEMS.register( "larimar",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
-
-    public static final RegistryObject<Item> ORELARIMAR = ITEMS.register( "orelarimar",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
-
-    public static final RegistryObject<Item> PICARETADELARIMAR = ITEMS.register( "picaretadelarimar",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
-
-    public static final RegistryObject<Item> ADAGADELARIMAR = ITEMS.register( "adagadelarimar",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
-
 
     public static void  register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
-    
 }
