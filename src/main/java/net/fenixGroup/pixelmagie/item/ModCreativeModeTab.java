@@ -8,7 +8,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab PIXELMAGIE_TAB = new CreativeModeTab("pixelmagietab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.ADAGA.get());
+            return new ItemStack(ModItems.ADAGADELARIMAR.get());
         }
     };
 }
