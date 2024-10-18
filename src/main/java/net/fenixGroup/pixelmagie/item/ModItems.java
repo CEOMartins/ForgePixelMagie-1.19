@@ -1,5 +1,6 @@
 package net.fenixGroup.pixelmagie.item;
 
+import net.fenixGroup.pixelmagie.item.custom.CajadoAmethyst;
 import net.fenixGroup.pixelmagie.pixelmagie;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.EventBus;
@@ -21,7 +22,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
 
     public static final RegistryObject<Item> ADAGA = ITEMS.register( "adaga",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
+            () -> new CajadoAmethyst(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
 
     public static final RegistryObject<Item> AMETHYST = ITEMS.register( "amethyst",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
