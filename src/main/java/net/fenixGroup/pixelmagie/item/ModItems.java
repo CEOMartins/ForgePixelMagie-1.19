@@ -27,7 +27,7 @@ public class ModItems {
     public static final RegistryObject<Item> AMETHYST = ITEMS.register( "amethyst",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
 
-    public static final RegistryObject<Item> RAWAMETHYST = ITEMS.register( "rawamethyst",
+    public static final RegistryObject<Item> OREAMETIST = ITEMS.register( "oreametist",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
 
     public static final RegistryObject<Item> ORELARIMAR = ITEMS.register( "orelarimar",
@@ -41,6 +41,45 @@ public class ModItems {
 
     public static final RegistryObject<Item> PICARETADELARIMAR = ITEMS.register( "picaretadelarimar",
             () -> new PickaxeItem(Tiers.DIAMOND, 3 ,  2.5f, new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
+
+    public static final RegistryObject<Item>  MACHADODELARIMAR = ITEMS.register("machadodelarimar",
+            () -> new AxeItem(Tiers.NETHERITE, 5 , 2.6f , new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
+
+    public static final RegistryObject<Item> PICARETADEAMETIST = ITEMS.register( "picaretadeametist",
+            () -> new PickaxeItem(Tiers.DIAMOND, 4 ,  2.5f, new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
+
+    public static final RegistryObject<Item>  MACHADODEAMETIST = ITEMS.register("machadodeametist",
+            () -> new AxeItem(Tiers.NETHERITE, 5 , 2.6f , new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
+
+    public static final RegistryObject<Item> OREITRIO = ITEMS.register( "oreitrio",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
+
+    public static final RegistryObject<Item> ITRIO = ITEMS.register( "itrio",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
+
+    public static final RegistryObject<Item>  MACHADODEITRIO = ITEMS.register("machadodeitrio",
+            () -> new AxeItem(Tiers.NETHERITE, 5 , 2.6f , new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
+
+    public static final RegistryObject<Item> PICARETADEITRIO = ITEMS.register( "picaretadeitrio",
+            () -> new PickaxeItem(Tiers.DIAMOND, 4 ,  2.5f, new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
+
+    public static final RegistryObject<Item> ESPADADEITRIO = ITEMS.register( "espadadeitrio",
+            () -> new SwordItem(Tiers.NETHERITE, 5 , 2.5f, new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
+
+    public static final RegistryObject<Item> OREARSENIO = ITEMS.register( "orearsenio",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
+
+    public static final RegistryObject<Item> ARSENIO = ITEMS.register( "arsenio",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
+
+    public static final RegistryObject<Item>  MACHADODEARSENIO = ITEMS.register("machadodearsenio",
+            () -> new AxeItem(Tiers.NETHERITE, 5 , 2.6f , new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
+
+    public static final RegistryObject<Item> PICARETADEARSENIO = ITEMS.register( "picaretadearsenio",
+            () -> new PickaxeItem(Tiers.DIAMOND, 4 ,  2.5f, new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
+
+    public static final RegistryObject<Item> SABREDEARSENIO = ITEMS.register( "sabredearsenio",
+            () -> new SwordItem(Tiers.NETHERITE, 5 , 2.5f, new Item.Properties().tab(ModCreativeModeTab.PIXELMAGIE_TAB)));
 
 
     public static void  register(IEventBus eventBus) {
